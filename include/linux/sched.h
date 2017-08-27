@@ -3499,4 +3499,8 @@ static inline unsigned long rlimit_max(unsigned int limit)
 	return task_rlimit_max(current, limit);
 }
 
+#ifdef CONFIG_DYNAMIC_STUNE_BOOST
+extern int sched_dynamic_stune_boost;
+#endif /* CONFIG_DYNAMIC_STUNE_BOOST */
+
 #endif
