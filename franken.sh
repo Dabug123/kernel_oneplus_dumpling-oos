@@ -20,7 +20,7 @@ TOOLCHAIN_DIR="${HOME}/toolchain"
 
 # Kernel Details
 BASE_DIRTY_VER="FrankenKernel"
-VER="."n1
+VER="."n2.5
 DIRTY_VER="$BASE_DIRTY_VER$VER"
 
 # Vars
